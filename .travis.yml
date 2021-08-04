@@ -3,7 +3,7 @@ install:
 
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN
+  - dpl releases --token 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
   - echo "TODO COMPILE 64bit"
 script:
   - echo "OK"
