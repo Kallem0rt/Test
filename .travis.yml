@@ -3,7 +3,7 @@ install:
 
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/mortgagecalculator-1.5-armeabi-v7a-debug.apk"
+  - dpl releases 
   - echo "TODO COMPILE 64bit"
 script:
   - echo "OK"
